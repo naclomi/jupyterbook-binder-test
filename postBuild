@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Basic case study data
+
+wget -q -O nz-stats.zip "https://www.stats.govt.nz/assets/Uploads/New-Zealand-business-demography-statistics/New-Zealand-business-demography-statistics-At-February-2022/Download-data/CSV-data-load_data_metadata.zip"
+
+unzip nz-stats.zip -d book/basic/data/
+rm nz-stats.zip
