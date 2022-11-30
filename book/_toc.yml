@@ -1,0 +1,10 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+chapters:
+- file: basic/00-intro.ipynb
+  sections:
+  - file: basic/01-packages.ipynb
+  - file: basic/02-datasets.ipynb
